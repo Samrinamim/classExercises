@@ -1,7 +1,7 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: lict
- * Date: 12/11/14
- * Time: 11:00 PM
- */ 
+$input = array("oranges", "apples", "pears");
+$flipped = array_flip($input);
+
+print_r($flipped);
+?>
