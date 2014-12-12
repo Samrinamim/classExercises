@@ -1,7 +1,7 @@
+
 <?php
-/**
- * Created by PhpStorm.
- * User: lict
- * Date: 12/11/14
- * Time: 11:19 PM
- */ 
+$array1 = array("a" => "green", "red", "blue");
+$array2 = array("b" => "green", "yellow", "red");
+$result = array_intersect($array1, $array2);
+print_r($result);
+?>
